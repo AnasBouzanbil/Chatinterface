@@ -6,18 +6,16 @@ export default function Body() {
         what i can help you with?
       </h1>
 
-<div className="flex flex-col justify-between items-start w-1/3 min-h-[180px] mt-10 border border-gray-300 p-4 bg-white shadow-md rounded-3xl overflow-hidden">        {/* Input */}
+      <div className="flex flex-col justify-between items-start w-full sm:w-2/3 lg:w-1/2 xl:w-1/3 min-h-[180px] mt-10 border border-gray-300 p-4 bg-white shadow-md rounded-3xl overflow-hidden">
+        {/* Input */}
         <input
           type="text"
           placeholder="Ask anything"
           className="w-full p-2 rounded-md focus:outline-none transition"
         />
 
-        <div className="flex flex-wrap justify-between items-center w-full mt-4 gap-2 sm:gap-4">
-          <div className="flex flex-wrap space-x-2 sm:space-x-4">
-
-
-
+        <div className="flex flex-wrap justify-between items-center w-full mt-4 gap-2">
+          <div className="flex flex-wrap gap-2">
             <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-semibold p-2 rounded-full flex items-center justify-center">
               <svg
                 className="w-4 h-4"
@@ -36,7 +34,7 @@ export default function Body() {
             </button>
 
             {/* Button 2 */}
-            <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-3 rounded-full flex items-center">
+            <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-3 rounded-full flex items-center whitespace-nowrap">
               <svg
                 className="w-4 h-4 mr-2"
                 fill="none"
@@ -55,7 +53,7 @@ export default function Body() {
             </button>
 
             {/* Button 3 */}
-            <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-3 rounded-full flex items-center">
+            <button className="bg-white border border-gray-300 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-3 rounded-full flex items-center whitespace-nowrap">
               <svg
                 className="w-4 h-4 mr-2"
                 fill="none"
